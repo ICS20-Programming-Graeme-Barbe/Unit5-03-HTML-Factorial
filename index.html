@@ -28,13 +28,15 @@
 		<h3>Enter your number and the webpage will display the factorial</h3>
 
 		<!-- Textfield for number -->
-		<label for="factorial">Enter your number: </label>
-		<input type="number" id="factorial" placeholder="Ex: 5" step="1" min="0">
-
-		<!-- Submit button -->
-		<button onclick="submit()">
-			Submit
-		</button>
+		<form action="javascript:submit()">
+			<label for="factorial"><p>Enter your number: </p></label>
+			<input type="number" id="factorial" min="0" step="1" placeholder="Ex: 5" >
+	
+			<!-- Submit button -->
+			<button onclick="submit()" class="button">
+				Submit
+			</button>
+		</form>
 
 		<!-- Div for answers -->
 		<h5>

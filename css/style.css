@@ -1,0 +1,32 @@
+/* Created by: Graeme Barbe
+* Created on: May 31 2022
+* This CSS file defines the style for index.html
+*/
+
+/* body background */
+body {
+	background-color: #310e68;
+background-image: linear-gradient(90deg, #310e68 0%, #5f0f40 74%);
+}
+
+/* Color changes */
+h1 {
+	color: rgb(255, 255, 255);
+}
+
+h3{
+	color: rgb(255, 255, 255);
+}
+
+p{
+	color: rgb(255, 255, 255);
+}
+
+.sum{
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+.button {
+	background-color: #8B008B;
+}

@@ -4,14 +4,28 @@
 
 function submit() {
 	//Variabls
-		let numb = document.getElementById('factorial').value
-		let counter = 1
-		let factorial = 1
+	let numb = document.getElementById('factorial').value
+	let display = ""
+	let counter = 1
+	let factorial = 1
 
-	do {
-		factorial = factorial * counter
-		counter + 1
-	} while (counter <= numb)
+	//If statement for 0 and 1
+	if (numb >= 0) {
+		if (numb != 0 && numb != 1) {
+			//While loop for calculations
+			do {
+				factorial *= counter
+				counter ++
+			} while (counter <= numb)
+			display = "The answer is " + factorial
+			
+		} else {
+			display = "The answer is 1"
+		}
+	} else {
+		display = "Please enter a number greater then 0"
+	}
 
-	document.getElementById('sum').innerHTML = "The sum is " + factorial
+	//Display answer 
+	document.getElementById('sum').innerHTML = display
 }
