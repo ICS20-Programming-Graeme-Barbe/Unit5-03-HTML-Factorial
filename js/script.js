@@ -3,7 +3,7 @@
 // JS functions for index.html
 
 function submit() {
-	//Variabls
+	//Variables
 	let numb = document.getElementById('factorial').value
 	let display = ""
 	let counter = 1
@@ -23,7 +23,7 @@ function submit() {
 			display = "The answer is 1"
 		}
 	} else {
-		display = "Please enter a number greater then 0"
+		display = "Please enter a number greater than 0"
 	}
 
 	//Display answer 
